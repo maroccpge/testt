@@ -27,19 +27,19 @@ function Home() {
           {/* Header */}
           <div className="lg:w-2/3 flex flex-col gap-4 w-full">
             <h1 className="text-3xl uppercase font-bold text-white mb-2">
-              Hello! i&apos;m farouk.
+              Hello! i&apos;m Salah.
             </h1>
             <p className="text-md font-light text-gray-300">
-              A front-end web developer with a unique background in
+              A Full satck web developer with a unique background in
               phytopathology, specializing in creating user-centric,
               aesthetically pleasing web interfaces. Committed to teamwork and
-              lifelong learning, I also maintain an active interest in gaming,
-              fitness, and tech trends.
+              lifelong learning, I also maintain an active interest in 
+              football, and tech trends.
             </p>
             <Link
               className="btn btn-sm lg:w-36 w-full my-2 border border-opacity-0 rounded-3xl self-start hover:border-opacity-0 bg-green-700 text-gray-100 hover:bg-blue-600"
               href={
-                "https://drive.google.com/file/d/1EMyg2Jqnvg31apnveSjePKrdZRJVs3MH/view?usp=sharing"
+                " "//my cv link in drive
               }
               rel="noopener noreferrer"
               target="_blank"
@@ -49,7 +49,7 @@ function Home() {
           </div>
           <figure className="h-48 w-48 lg:block hidden">
             <Image
-              src="/images/2.jpg"
+              src="/images/2.jpg"//my image head 500*500
               alt=""
               height={500}
               width={500}
@@ -169,7 +169,7 @@ function Home() {
                   type: "spring",
                 }}
               >
-                <Stacks technology={"REACT.JS"} image={"/images/react.png"} />
+                <Stacks technology={"NODE.JS"} image={"/images/node.png"} />
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 70 }}
@@ -181,7 +181,7 @@ function Home() {
                   type: "spring",
                 }}
               >
-                <Stacks technology={"NEXT.JS"} image={"/images/nextjs.png"} />
+                <Stacks technology={"EXPRESS JS"} image={"/images/express.png"} />
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 70 }}
@@ -209,8 +209,8 @@ function Home() {
                 }}
               >
                 <Stacks
-                  technology={"TAILWIND"}
-                  image={"/images/tailwind.png"}
+                  technology={"BOOTSTRAP"}
+                  image={"/images/bootstrap.png"}
                 />
               </motion.div>
             </div>
